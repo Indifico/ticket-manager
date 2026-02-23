@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using TicketManagerAPI.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -12,6 +15,7 @@ builder.Services.AddCors(options =>
             .AllowAnyMethod();
     });
 });
+builder.Services.AddDbContext<TicketContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("TicketDatabase")));
 
 var app = builder.Build();
 
