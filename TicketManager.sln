@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagerAPI", "TicketManagerAPI\TicketManagerAPI.csproj", "{CF5E008B-8E8D-4402-81D6-FD6A28B3074B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketsBlazorApp", "TicketsBlazorApp\TicketsBlazorApp.csproj", "{B69218A9-8F46-47CC-B22A-124E7FF26BDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF5E008B-8E8D-4402-81D6-FD6A28B3074B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF5E008B-8E8D-4402-81D6-FD6A28B3074B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF5E008B-8E8D-4402-81D6-FD6A28B3074B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF5E008B-8E8D-4402-81D6-FD6A28B3074B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B69218A9-8F46-47CC-B22A-124E7FF26BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69218A9-8F46-47CC-B22A-124E7FF26BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69218A9-8F46-47CC-B22A-124E7FF26BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69218A9-8F46-47CC-B22A-124E7FF26BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
