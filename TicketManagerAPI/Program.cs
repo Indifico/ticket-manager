@@ -15,7 +15,7 @@ builder.Services.AddCors(options =>
             .AllowAnyMethod();
     });
 });
-builder.Services.AddDbContext<TicketContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("TicketDatabase")));
+builder.Services.AddDbContext<TicketContext>(options => options.UseSqlite("TicketDatabase"));
 
 var app = builder.Build();
 
