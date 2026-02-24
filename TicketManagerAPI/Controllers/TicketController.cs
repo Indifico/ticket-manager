@@ -19,15 +19,8 @@ namespace TicketManagerAPI.Controllers
         {
             _context = context;
         }
-
-        // GET: api/Ticket
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Ticket>>> GetTickets()
-        {
-            return await _context.Tickets.ToListAsync();
-        }
-
-        // GET: api/Ticket/5
+        
+        // GET: api/Ticket/
         [HttpGet("{id}")]
         public async Task<ActionResult<Ticket>> GetTicket(int id)
         {
